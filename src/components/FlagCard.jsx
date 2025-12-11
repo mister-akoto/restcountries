@@ -12,6 +12,7 @@ const FlagCard = ({flagData}) => {
     toggleTheme(flagCardRef.current, darkTheme)
   },[darkTheme])
 
+  
   return (
     <div ref={flagCardRef}  className='flag-card light-containers'>
       <div className="flag">

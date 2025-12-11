@@ -5,7 +5,6 @@ import { useLoaderData,Link } from 'react-router-dom'
 import FlagCard from '../components/FlagCard'
 import Filter from '../components/Filter'
 import { useState } from 'react'
-import Button from '../components/Button'
 
 const Home = () => {
   const flagData = useLoaderData()
