@@ -1,6 +1,7 @@
 import { useContext, useEffect, useRef } from "react"
 import { ThemeContext } from "../contexts/ThemeProvider"
 import toggleTheme from "../utils/toggleTheme"
+import { Search } from "lucide-react"
 
 
 
@@ -25,7 +26,7 @@ function handleclick(e){
 
   return (
     <div ref={searchBarRef} className='search-bar light-containers'>
-      <img onClick={onClick}  src=" public/icons8-search-50.png" alt="search button"/>
+ <Search onClick={onClick}/>
       <input ref={searchInputRef} onKeyDown={handleclick} type="text" className="search-input light-containers" placeholder='Search for a country...'/>
     </div>
   )
