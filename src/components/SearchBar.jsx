@@ -25,7 +25,7 @@ function handleclick(e){
 
   return (
     <div ref={searchBarRef} className='search-bar light-containers'>
-      <img onClick={onClick}  src=" src\assets\icons8-search-50.png" alt="search button"/>
+      <img onClick={onClick}  src=" public/icons8-search-50.png" alt="search button"/>
       <input ref={searchInputRef} onKeyDown={handleclick} type="text" className="search-input light-containers" placeholder='Search for a country...'/>
     </div>
   )

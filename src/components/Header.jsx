@@ -13,7 +13,7 @@ const Header = () => {
     <div ref={headerRef} className="header light-containers">
       <h1> Where in the world?</h1>
       <div className="toggle-theme" onClick={() => setDarkTheme(!darkTheme)}>
-        <img src="src\assets\icons8-moon-symbol-48.png" alt="dark toggle" />
+        <img src="public/icons8-moon-symbol-48.png" alt="dark toggle" />
         <p className="theme"> Dark Mode</p>
       </div>
     </div>
